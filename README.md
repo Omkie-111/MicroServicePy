@@ -10,3 +10,13 @@ This is a Microservice based on python
    python -m venv venv
    source venv/bin/activate
    ```
+
+2. Create empty files:
+
+   ```shell
+   touch requirements.txt
+   touch Dockerfile
+   touch Makefile
+   ```
+
+2. Populate Makefile :
