@@ -13,6 +13,10 @@ test:
 	python -m pytest -vv --cov=main test_logic.py 
 build:
 	#build container
+	docker build -t deploy-streamlit .
+run:
+	#run docker
+	docker run -p 127.0.0.1:8501:8501 17438bca354d
 deploy:
 	#deploy
 all: install lint test build deploy 
