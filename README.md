@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/Omkie-111/MicroServicePy/actions/workflows/devops.yml/badge.svg)](https://github.com/Omkie-111/MicroServicePy/actions/workflows/devops.yml)
+
 # MicroServicePy
 
 This is a Microservice based on python
