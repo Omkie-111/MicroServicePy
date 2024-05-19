@@ -24,3 +24,5 @@ This is a Microservice based on python
 3. Populate Makefile
 
 4. Setup Continuous Integration
+
+5. Setup Tests for the microservice
