@@ -1,5 +1,5 @@
 import google.generativeai as genai
-import PyPDF2 as pdf
+import pypdf as pdf
 from dotenv import load_dotenv
 
 load_dotenv()  ## load all our environment variables
