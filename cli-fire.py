@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import fire
-import app
+from main import logic
 
 if __name__ == "__main__":
-    fire.Fire(app)
+    fire.Fire(logic)
