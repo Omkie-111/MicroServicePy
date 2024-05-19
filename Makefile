@@ -4,6 +4,7 @@ install:
 		pip3 install -r requirements.txt
 format:
 	#format code
+	black ./*.py ./**/*.py 
 lint:
 	#to check the code has proper syntax or not flake8 or pylint	
 test:
