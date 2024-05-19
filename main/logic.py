@@ -7,9 +7,9 @@ API_KEY = "AIzaSyAiaBGYjqySBaXjtOs1g7bY6nF8UD3z1Oo"
 genai.configure(api_key=API_KEY)
 
 
-def get_gemini_repsonse(input):
+def get_gemini_repsonse(input_prompt):
     model = genai.GenerativeModel("gemini-pro")
-    response = model.generate_content(input)
+    response = model.generate_content(input_prompt)
     return response.text
 
 
