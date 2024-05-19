@@ -1,9 +1,8 @@
-import main.logic
-import pytest
 from unittest.mock import MagicMock, patch
 
 # Assuming `get_gemini_response` and `input_pdf_text` are defined in a module named `main.logic`
 import main
+import main.logic
 
 # Mocking genai.GenerativeModel
 @patch('main.logic.genai.GenerativeModel')
@@ -30,4 +29,3 @@ def test_input_pdf_text(mock_pdf_reader):
     
     assert text == "Page 1 textPage 2 text"
 
-# Additional test cases can be added to cover different scenarios
