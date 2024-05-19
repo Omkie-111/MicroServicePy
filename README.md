@@ -21,4 +21,6 @@ This is a Microservice based on python
    touch Makefile
    ```
 
-2. Populate Makefile :
+3. Populate Makefile
+
+4. Setup Continuous Integration
