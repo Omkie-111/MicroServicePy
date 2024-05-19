@@ -10,7 +10,7 @@ lint:
 	pylint --disable=R,C ./*.py ./**/*.py 
 test:
 	#test where m is the marker and vv is the verbose with cov as coverage
-	python -m pytest -vv --cov=main ./test_logic.py
+	python -m pytest -vv --cov=main test_logic.py 
 build:
 	#build container
 deploy:

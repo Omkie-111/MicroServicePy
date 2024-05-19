@@ -15,7 +15,7 @@ def main():
             input_prompt = """Study the medical report provided and give me a summary where the summary should consist of what is abnormal in this report means what is below or above healthy range
             and because of that what are the effects to the health of the person and for each give some dietary insights.
             """
-            text = input_pdf_text(uploaded_file)
+            input_pdf_text(uploaded_file)
             response = get_gemini_repsonse(input_prompt)
             st.subheader(response)
 
